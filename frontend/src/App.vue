@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen bg-txt-bg">
     <div>
-      <NavComp />
+      <NavComp @about="showAbout"/>
 
       <form @submit.prevent="send_question" class="bg-txt-bg border-b-2">
         <div class="font-sans m-10 flex items-center justify-center">
@@ -34,6 +34,7 @@
             <p v-if="response" class="fade-in delayed whitespace-pre-line">
               {{ response }}
             </p>
+            <AboutApp v-if="about" />
           </section>
         </div>
       </div>
@@ -48,9 +49,10 @@ import NavComp from "./components/navComp.vue";
 import loadingComp from "./components/loadingComp.vue";
 import FooterComp from "./components/footerComp.vue";
 import mottoComp from "./components/mottoComp.vue";
+import AboutApp from "./components/aboutApp.vue"
 
 export default {
-  components: { NavComp, loadingComp, FooterComp, mottoComp },
+  components: { NavComp, loadingComp, FooterComp, mottoComp, AboutApp },
   data() {
     return {
       question: "",
@@ -58,6 +60,7 @@ export default {
       asked: "",
       response: "",
       loading: false,
+      about: false
     };
   },
   created() {
@@ -70,6 +73,7 @@ export default {
       this.loading = false;
       this.response = data.data;
       this.question = "";
+      this.about=false
     });
   },
   methods: {
@@ -80,7 +84,14 @@ export default {
       this.response = "";
       this.motto = false;
       this.loading = true;
+      this.about=false;
     },
+    showAbout() {
+      this.about=true
+      this.response = ""
+      this.motto=true
+      this.asked=""
+    }
   },
 };
 </script>

@@ -1,11 +1,13 @@
 <template>
     <section>
+    
       <p class=" text-2xl font-bold tracking-tighter">
       Ask me
         <span :class="actionClasses">{{ action }}</span>
       </p>
-      <p class="text-2xl font-light ml-20 mb-3">In any language</p>
-      <p class="text-2xl font-light ml-20">I can provide you usefull informations. Try it! It's free &#128522;</p>
+      <p class="text-2xl font-light ml-20 mb-3 pl-1">in any language</p>
+      <p class="text-2xl font-light ml-20 pl-1">I can provide you usefull informations. Try it! It's free &#128522;</p>
+    
     </section>
   </template>
   
