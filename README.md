@@ -2,6 +2,8 @@
 ## Introduction
 This application is basically empowered by OpenAI API and can be customized based on your need. It can anwer any question and play the role of assistance. 
 
+### Note
+It still needs improvements on the backend and frontend. The UI is currently not optimized for dark themes. 
 
 ## :ledger: Index
 
