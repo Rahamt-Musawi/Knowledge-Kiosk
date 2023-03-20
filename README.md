@@ -15,7 +15,7 @@ It still needs improvements on the backend and frontend. The UI is currently not
 
 
 ##  :beginner: About
-Lonowledge-Kiosk is a fancy name that is choosen for this application just for fun. It is developed using Python on the backend and Vue 3 on the frontend. The information are being exchanged with the help of Socket.io. OpenAI API makes the application powerfull enough to answer any question. Because Python is used on the backend, any good idea of text manipulation can be implemented in the future.
+Knowledge-Kiosk is a fancy name that is choosen for this application just for fun. It is developed using Python on the backend and Vue 3 on the frontend. The information are being exchanged with the help of Socket.io. OpenAI API makes the application powerfull enough to answer any question. Because Python is used on the backend, any good idea of text manipulation can be implemented in the future.
 
 ### Watch the demo video of the application here
 ![Demo video of the pplication](https://user-images.githubusercontent.com/115637390/226401890-500e0a6e-f61f-4e5d-ae79-65dc38abbafa.mp4)
