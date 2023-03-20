@@ -21,7 +21,7 @@ Knowledge-Kiosk is a fancy name that is choosen for this application just for fu
 ![Demo video of the pplication](https://user-images.githubusercontent.com/115637390/226401890-500e0a6e-f61f-4e5d-ae79-65dc38abbafa.mp4)
 
 ## :zap: Usage
-If you want to use this project, you should install the dependencies of Python and Vue.js. Furthermore a key for the OpenAI API must be generated and saved in the key text file on the backend. 
+If you want to use this project for practive or further development, you should install the dependencies of Python and Vue.js. Furthermore, a key for the OpenAI API must be generated and saved in the key text file on the backend. 
 
 ###  :electric_plug: Installation
 - For the frontend you need to install Vue.js, Tailwind and Socket.io client. 
