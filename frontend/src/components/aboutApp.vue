@@ -9,7 +9,7 @@
           </h4>
           <p class="dark:text-gray-400">
             This application is developed using Python on the backend and Javascript on the frontend.
-            It is empowered by ChatGPT that can answer any question you ask.
+            It is empowered by OpenAI API that can answer any question you ask.
             The Interface is designed to be simple, user friendly, responsive and effiecient.   
             Thanks to the nice combination of Python and Vue 3, the application can be customized and scaled easily in the future.
             </p><br />
