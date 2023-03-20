@@ -12,7 +12,7 @@
             src="../assets/logo.png"
           />
 
-          <span class=" mr-6 ml-2 text-4xl font-dancing-script text-stone-300">KNOWLEDGE-KIOSK</span></a>  <span class="drop-shadow-md text-white ml-3 border-1 border-t-2 border-b-2 border-gray-400 p-1"> <span>Ask me <span class="text-blue-200 ">anything</span>, <span class="text-green-200">anytime</span>, <span class="text-red-200">anywhere</span> - give your response the way you wish</span></span>   
+          <span class=" mr-6 ml-2 text-4xl font-dancing-script text-stone-300">KNOWLEDGE-KIOSK</span></a>  <span class="drop-shadow-md text-white ml-3 border-1 border-t-2 border-b-2 border-gray-400 p-1"> <span>Ask me <span class="text-blue-200 ">anything</span>, <span class="text-green-200">anytime</span>, <span class="text-red-200">anywhere</span> - I respond immediately as you wish</span></span>   
         </div>
   
         <div class="float-right mr-6 ml-7">
