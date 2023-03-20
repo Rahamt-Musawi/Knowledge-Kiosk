@@ -24,11 +24,11 @@ Knowledge-Kiosk is a fancy name that is choosen for this application just for fu
 If you want to use this project for practive or further development, you should install the dependencies of Python and Vue.js. Furthermore, a key for the OpenAI API must be generated and saved in the key text file on the backend. 
 
 ###  :electric_plug: Installation
-- For the frontend you need to install Vue.js, Tailwind and Socket.io client. 
+- For the frontend you need to install Vue.js, Tailwind and Socket.io client. The following command will install all the required dependencies on the frontend. 
 ```
 $ npm install 
 ```
-- For the backend you need to install OpenAI API, Flask and Scoket.io
+- For the backend you need to install OpenAI API, Flask and Scoket.io. You may activate virtual environment using "souce env/bin/activate". The following command can be easily used to install all the required dependencies on the backend.
 ```
 $ pip install -r requirements.txt
 ```
