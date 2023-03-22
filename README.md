@@ -1,6 +1,6 @@
 # Knowledge-Kiosk
 ## Introduction
-This application is basically empowered by OpenAI API and can be customized based on your need. It can answer any question and play the role of your assistance. 
+This application is basically empowered by OpenAI API and can be customized based on your need. It can answer any question and play the role of your assistance. New functionalities can be easily added on the backend in the future. 
 
 ### Note
 It still needs improvements on the backend and frontend. The UI is currently not optimized for dark themes. 
@@ -18,7 +18,9 @@ It still needs improvements on the backend and frontend. The UI is currently not
 Knowledge-Kiosk is a fancy name that is choosen for this application just for fun. It is developed using Python on the backend and Vue 3 on the frontend. The information are being exchanged with the help of Socket.io. OpenAI API makes the application powerfull enough to answer any question. Because Python is used on the backend, any good idea of text manipulation can be implemented in the future.
 
 ### Watch the demo video of the application here
-![Demo video of the pplication](https://user-images.githubusercontent.com/115637390/226401890-500e0a6e-f61f-4e5d-ae79-65dc38abbafa.mp4)
+https://user-images.githubusercontent.com/115637390/227026112-9c5fa74a-e53e-4017-bb3b-682e237f1014.mp4
+
+
 
 ## :zap: Usage
 If you want to use this project for practive or further development, you should install the dependencies of Python and Vue.js. Furthermore, a key for the OpenAI API must be generated and saved in the key text file on the backend. 
