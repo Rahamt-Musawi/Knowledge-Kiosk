@@ -1,6 +1,6 @@
 # Knowledge-Kiosk
 ## Introduction
-This application is basically empowered by OpenAI API and can be customized based on your need. It can answer any question and play the role of your assistance. 
+This application is basically empowered by OpenAI API and can be customized based on your need. It can answer any question and play the role of your assistance. New functionalities can be easily added on the backend in the future. 
 
 ### Note
 It still needs improvements on the backend and frontend. The UI is currently not optimized for dark themes. 
