@@ -1,17 +1,16 @@
 <template>
-<div class="loader">
-  <div class="loader__circle"></div>
-  <div class="loader__circle"></div>
-  <div class="loader__circle"></div>
-  <div class="loader__circle"></div>
-</div>
-
+  <div class="loader">
+    <div class="loader__circle"></div>
+    <div class="loader__circle"></div>
+    <div class="loader__circle"></div>
+    <div class="loader__circle"></div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "loadingComp"
-}
+  name: "loadingComp",
+};
 </script>
 
 <style>
@@ -63,5 +62,4 @@ export default {
     transform: scale(1);
   }
 }
-
 </style>

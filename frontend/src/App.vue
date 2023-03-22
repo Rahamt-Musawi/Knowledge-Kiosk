@@ -31,7 +31,7 @@
             <span class="fade-in font-bold text-xl text-red-900 opacity-80">{{
               asked
             }}</span>
-            <p v-if="response" class="fade-in delayed whitespace-pre-line">
+            <p v-if="response" class="fade-in delayed whitespace-pre-wrap">
               {{ response }}
             </p>
             <AboutApp v-if="about" />
@@ -42,17 +42,18 @@
     <FooterComp />
   </div>
 </template>
-
 <script>
-import io from "socket.io-client";
-import NavComp from "./components/navComp.vue";
+
 import loadingComp from "./components/loadingComp.vue";
-import FooterComp from "./components/footerComp.vue";
+import footerComp from "./components/footerComp.vue";
 import mottoComp from "./components/mottoComp.vue";
-import AboutApp from "./components/aboutApp.vue"
+import aboutApp from "./components/aboutApp.vue"
+import navComp from "./components/navComp.vue";
+
+import io from "socket.io-client";
 
 export default {
-  components: { NavComp, loadingComp, FooterComp, mottoComp, AboutApp },
+  components: { navComp, loadingComp, footerComp, mottoComp, aboutApp },
   data() {
     return {
       question: "",
@@ -63,15 +64,16 @@ export default {
       about: false
     };
   },
+
   created() {
     this.socket = io("http://localhost:5000");
     this.socket.on("connect", () => {
       console.log("Connected to Socket.io server");
     });
     this.socket.on("response", (data) => {
-      console.log("Received response:", data.data);
-      this.loading = false;
       this.response = data.data;
+      console.log(this.response)
+      this.loading = false;
       this.question = "";
       this.about=false
     });
